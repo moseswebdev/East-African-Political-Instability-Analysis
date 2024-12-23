@@ -1,0 +1,34 @@
+East African Political Instability Analysis
+Project Overview
+This project analyzes political instability incidents at the gridcell level in Kenya, Tanzania, Mauritius, Somalia, and Uganda. The analysis involves importing and interpolating data, creating dataframes, calculating instability metrics, and visualizing the results through geographical plots.
+
+Key Steps and Methods
+Importing and Interpolating Data: Imported raw data arrays and interpolated them to create structured dataframes for analysis.
+
+Loading Incidents: Loaded all incidents across the specified East African countries to gain a comprehensive understanding of political instability.
+
+Calculating Instability Count Per Capita: Calculated the instability count per capita to normalize the incidents relative to the population size of each region.
+
+Geospatial Visualization: Plotted East African countries using grid-cells within a bounding box, highlighting areas with significant political instability.
+
+Tools and Technologies
+Python: Core programming language for data processing and analysis.
+
+Pandas: Data manipulation and analysis.
+
+Geopandas: Geospatial data manipulation and visualization.
+
+Matplotlib: Visualization of data through plots and charts.
+
+Jupyter Notebook: Interactive environment for running and documenting the analysis.
+
+Data Sources
+Political Instability Incidents Dataset: Comprehensive dataset detailing incidents of political instability at the gridcell level in the specified East African countries.
+
+Visualizations
+Grid-Cell Plots: Visual representations of political instability incidents across East Africa, plotted using bounding boxes to delineate specific areas of interest.
+
+Instability Count Per Capita: Visual plots showing normalized instability counts, providing insight into the relative impact of political incidents on different populations.
+
+Acknowledgements
+ACLED Explorer: The data for this project was sourced from the ACLED (Armed Conflict Location & Event Data) Explorer, which provides detailed information on political violence and protest events across the globe.
